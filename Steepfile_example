@@ -1,0 +1,13 @@
+# The following config suggestion originates from
+# https://evilmartians.com/chronicles/climbing-steep-hills-or-adopting-ruby-types
+
+target :lib do
+  # Load signatures from ./ folder
+  signature './'
+  # Check only files from ./ folder
+  check './'
+
+  # We use Set standard library; its signatures
+  # come with RBS, but we need to load them explicitly
+  library 'set'
+end
