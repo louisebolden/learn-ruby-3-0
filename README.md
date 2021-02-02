@@ -150,5 +150,7 @@ def square(x) = x * x
 - https://www.ruby-lang.org/en/news/2020/09/25/ruby-3-0-0-preview1-released/
 - https://www.ruby-lang.org/en/news/2020/12/08/ruby-3-0-0-preview2-released/
 - https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html
-- [(EN) Don't Wait For Me! Scalable Concurrency for Ruby 3! / Samuel Williams @ioquatix](https://www.youtube.com/watch?v=Y29SSOS4UOc)
+- [The State of Ruby 3 Typing](https://developer.squareup.com/blog/the-state-of-ruby-3-typing/)
 - [Ruby 3.0 brings new type checking and concurrency features](https://lwn.net/Articles/833560/)
+- [(EN) Don't Wait For Me! Scalable Concurrency for Ruby 3! / Samuel Williams @ioquatix](https://www.youtube.com/watch?v=Y29SSOS4UOc)
+- [Ruby 3.0 and the new FiberScheduler interface](http://www.wjwh.eu/posts/2020-12-28-ruby-fiber-scheduler-c-extension.html)
