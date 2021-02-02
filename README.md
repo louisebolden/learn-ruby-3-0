@@ -42,17 +42,17 @@ puts '---'
 require 'async'
 
 def perform_task(duration:, name:)
-	Async do |task|
-		task.sleep duration
-		puts "#{name} complete"
-	end
+  Async do |task|
+    task.sleep duration
+    puts "#{name} complete"
+  end
 end
 
 puts 'Using non-blocking fibers for async tasks:'
 
 Async do
-	perform_task(duration: 2, name: 'First Task')
-	perform_task(duration: 1, name: 'Second Task')
+  perform_task(duration: 2, name: 'First Task')
+  perform_task(duration: 1, name: 'Second Task')
 end
 
 puts '---'
